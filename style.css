@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.page1{
+    background-color: blue;
+}
+.page2{
+    background-color: yellow;
+}
+.page3{
+    background-color: green;
+}
+.page4{
+    background-color: red;
+}
+.page5{
+    background-color: purple;
+}
+.interface{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+section{
+    position: sticky;
+    top: 0;
+    left: 0;
+    scroll-snap-align: start;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
